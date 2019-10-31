@@ -23,6 +23,7 @@ void menu(){
         cout << "4. Buscar palabra \n";
         cout << "5. Hallar la cantidad de veces que se repite una palabra \n";
 		cout<<"\nIngrese opcion: ";cin>>opcion;
+		system("cls");
 		switch(opcion){
 			case 1:
 				leer();
