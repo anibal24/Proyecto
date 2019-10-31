@@ -23,7 +23,7 @@ void leer(){
     if(file.is_open()){
         while(getline(file,myStr)){
             cout << myStr;
-            archivo<<myStr;
+            archivo<<myStr; //Guarda el contenido de myStr en el archivo "Texto.txt" y lo guarda en la carpeta donde se encuentra el programa. .
         }
         cout <<"\nSe esta leyendo el archivo!\n";
     }
